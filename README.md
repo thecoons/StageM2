@@ -14,5 +14,3 @@
 1. **Node2Vec: Scalable Feature Learning For Networks**
 
 > Algorithme de "Representation Learning" pour clusteriser des noeuds de graph ou faire de la prédiction sur les arrêtes. Ils utilisent une marche paramétrique pour définir une représentation du voisinage d'un noeud de manière "souple" (laplacian trop groumande).
-
-<img src="http://latex.codecogs.com/gif.latex?\sum&space;k\left&space;[&space;a&space;&plus;&space;b&space;\right]" alt="">
