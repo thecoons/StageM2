@@ -31,3 +31,5 @@
 ## Note
 
   D'après [SGP 1.,MLG (1.,2.)] on voit que le problème de la classification ou de la prédiction dans les graphs ne dépend que de la façon dont on choisie de représenter nos données, quelle transformation à appliquer. Il est important d'approfondir les tâche de "Representation Learning".
+
+  Au lieu de chercher des méthodes dur comme la diagonalisation de matrice, ou des transformer de Laplace, Fourier ou autre. On peu générer des méthodes d'apprentissage pour déterminer cette transformation.
