@@ -16,7 +16,7 @@
 
 2. **Laplacian Eigenmaps and Spectral Techniques for Embedding and Clustering**
 
-  > Todo
+  > Si je **comprends bien**, l'utilisation de la Laplacian sert à examiner des objets dimensionellement faible dans un espace à grande dimension. En effectuant cette réduction de dimension on peu mettre en évidence des corélation "simple" entre les données.On peu croire que si il n'existe pas de fonction linéaire capable de séparer une **certaine** transformation de l'espace de représentation l'algo est caduc...  Mais putain on y comprends rien, j'ai besoin de plus de technique...
 
 ## Mémo
 
