@@ -26,7 +26,8 @@
 
 1. **Representation Learning: A Review and New Perspectives**
 
-  > Todo ...
+  > On voit que les avancés des dernières années dans le machine learning à été d'effectuer des traitements de représentation sur les données à explorer, que ça soit dans le TALN, OR ou le le Go, c'est un traitement sur l'espace de représentation de la données qui est en cause.
+
 
 2. **Efficient Estimation of Word Representations in Vector Space**
 
@@ -40,6 +41,12 @@
 
 ## Note
 
+  _14/02/2017_
+
   D'après [SGP 1.,MLG (1.,2.)] on voit que le problème de la classification ou de la prédiction dans les graphs ne dépend que de la façon dont on choisie de représenter le voisinage des noeuds, quelle transformation à appliquer. Il est important d'approfondir les tâche de "Representation Learning".
 
   Au lieu de chercher des méthodes dur comme la diagonalisation de matrice, ou des transformer de Laplace, Fourier ou autre. On peu générer des méthodes d'apprentissage pour déterminer cette transformation.
+
+  _15/02/2017_
+
+  On voit dans [ML 1.] la corélation avec toutes les avancées dans l'IA ces dernière années, la représentation des données. On peu penser qu'il existe au moins une représentation optimal de la données pour un problème de classification ou de prédiction donné dans un espace de représentation donnée. On constate un isomorphisme des modèles utilisé dans le domaine du learning comme le montre [MLG 1.] en utilisant les travaux de TALN de [ML 2.] pour des problèmes de lié aux patterns dans les graphs.
