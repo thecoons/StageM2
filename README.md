@@ -22,6 +22,16 @@
 
   > Si je **comprends bien**, l'utilisation de la Laplacian sert à examiner des objets dimensionellement faible dans un espace à grande dimension. En effectuant cette réduction de dimension on peu mettre en évidence des corélation "simple" entre les données.On peu croire que si il n'existe pas de fonction linéaire capable de séparer une **certaine** transformation de l'espace de représentation l'algo est caduc...  Mais putain on y comprends rien, j'ai besoin de plus de technique...
 
+### Machine Learning
+
+1. **Representation Learning: A Review and New Perspectives**
+
+  > Todo ...
+
+2. **Efficient Estimation of Word Representations in Vector Space**
+
+  > Todo ...
+
 ## Mémo
 
 1. [TensorFlowOnSpark](https://github.com/yahoo/TensorFlowOnSpark)
@@ -30,6 +40,6 @@
 
 ## Note
 
-  D'après [SGP 1.,MLG (1.,2.)] on voit que le problème de la classification ou de la prédiction dans les graphs ne dépend que de la façon dont on choisie de représenter nos données, quelle transformation à appliquer. Il est important d'approfondir les tâche de "Representation Learning".
+  D'après [SGP 1.,MLG (1.,2.)] on voit que le problème de la classification ou de la prédiction dans les graphs ne dépend que de la façon dont on choisie de représenter le voisinage des noeuds, quelle transformation à appliquer. Il est important d'approfondir les tâche de "Representation Learning".
 
   Au lieu de chercher des méthodes dur comme la diagonalisation de matrice, ou des transformer de Laplace, Fourier ou autre. On peu générer des méthodes d'apprentissage pour déterminer cette transformation.
