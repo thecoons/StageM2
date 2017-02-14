@@ -21,4 +21,5 @@
 ## Mémo
 
 1. [TensorFlowOnSpark](https://github.com/yahoo/TensorFlowOnSpark)
+
   > TensorFlow distribué par Spark, ça sonne bien à voir.
