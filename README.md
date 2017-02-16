@@ -50,3 +50,20 @@
   _15/02/2017_
 
   On voit dans [ML 1.] la corélation avec toutes les avancées dans l'IA ces dernière années, la représentation des données. On peu penser qu'il existe au moins une représentation optimal de la données pour un problème de classification ou de prédiction donné dans un espace de représentation donnée. On constate un isomorphisme des modèles utilisé dans le domaine du learning comme le montre [MLG 1.] en utilisant les travaux de TALN de [ML 2.] pour des problèmes de lié aux patterns dans les graphs.
+
+  _16/02/2017_
+
+  Après la réunions deux points à éclaircir sont resortient.
+
+  Est-ce que le modèle à convolution/pooling essaye de préserver l'espace vectoriel de l'input, et est-il pértinent sur des éléments à faible dimensionalité plongé dans des "grands" espaces vecoriels.
+
+  > Je me dis que le problème est extrement similaire aux problèmes de TALN
+    1) Les rapport des espaces généré et la dimensionalitée des elements y sont identiques, la cardinalitée des mots d'un corpuce vont former les dimensions de l'espace de représentation quand pour un graph se sera ses noeuds qui le forment.
+    2) Les interaction "local" des elements est plongé dans un espace bien plus grand que sa dimensionalité.
+    Ils faut penser au problèmes des "hubs"(des singularité à grand degrée) est-ce possible en TALN ou somme nous dans un modèle plus général ou faut il contraindre les degrée du graph ???? (quote: l'interaction des mots d'un corpus peux ce représenter par un graph à "faible" degrée)
+
+  Il faut chercher à comprendre les méchanismes de la convolution et ses répercutions sur la variation des données représentent des graphs.
+
+  Comprendre les enjeux de la reduction de l'espace de représentation des données.
+
+  Definir l'état de l'art sur les techniques d'apprentissages appliqués aux graphs.
