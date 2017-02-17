@@ -1,4 +1,8 @@
 # Deep Learning and Graph Patterns
+## Plan
+  1. Machine Learning and Deep Learning
+  2. Representation Learning
+  3. Learning Techniques Apply to Graph Structures
 
 ## Articles
 
