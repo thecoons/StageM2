@@ -32,6 +32,12 @@
 
   > On voit que les avancés des dernières années dans le machine learning à été d'effectuer des traitements de représentation sur les données à explorer, que ça soit dans le TALN, OR ou le le Go, c'est un traitement sur l'espace de représentation de la données qui est en cause.
 
+  > La convolution convient aux espaces de grandes dimensions en réduisant les paramètres à des motifs locaux.
+
+  > Le problème, d'appliquer une sucession de convolution et pooling aux graphs, ne serait pas la convolution mais la strategie de pooling utilisée qui engendre une trop grande approximation.
+
+
+
 
 2. **Efficient Estimation of Word Representations in Vector Space**
 
