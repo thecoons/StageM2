@@ -74,6 +74,8 @@
 
   Il faut chercher à comprendre les méchanismes de la convolution et ses répercutions sur la variation des données représentent des graphs.
 
+  > Plusieurs observations, si la dépendances des "features" n'est pas assez importante dans nos graphes cela rend plus compliquée l'exploration de la topologie de l'espace de représentation par les architectures à convolution. De plus les stratégies statiques de "pooling" semble être non adaptées à l'aspect générique de notre problématique. Il faut explorer les approches par apprentissages des stratégies de pooling.  
+
   Comprendre les enjeux de la reduction de l'espace de représentation des données.
 
   Definir l'état de l'art sur les techniques d'apprentissages appliqués aux graphs.
