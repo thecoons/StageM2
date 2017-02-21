@@ -82,4 +82,11 @@
 
   Definir l'état de l'art sur les techniques d'apprentissages appliqués aux graphs.
 
-  > Todo ....
+  > Question compliquée, si on considére que tout problème de classification ou de prédiction peut être représenter dans un graphe.
+  (Images, series temporelles, texte, ... tout peut être représenté dans un graphe...)
+
+  _21/02/2017_
+
+  Il faut établir les différentes approches pour les phases de "pooling" d'une architectures à convolution.
+
+  Il faut s'intéresser aux méthodes d'apprentissages appliqués aux structures moléculaires (chémoinformatique !).
