@@ -87,6 +87,8 @@
 
   _21/02/2017_
 
+  Etant dans un domaine formel (théorie des graphes) il serait facile de générer un très grands nombres d'exemples représentatives d'une problématique pour améliorer la pérformance de nos modèles [ML 1.11.1].
+
   Il faut établir les différentes approches pour les phases de "pooling" d'une architectures à convolution.
 
   Il faut s'intéresser aux méthodes d'apprentissages appliqués aux structures moléculaires (chémoinformatique !).
