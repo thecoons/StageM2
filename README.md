@@ -78,4 +78,8 @@
 
   Comprendre les enjeux de la reduction de l'espace de représentation des données.
 
+  > C'est assez simple si l'on réduit l'espace de représentation par des "features" de faibles dimensions qui sont très discriminantes pour notre problématique, alors la performance de nos modèles est fortement augmentée
+
   Definir l'état de l'art sur les techniques d'apprentissages appliqués aux graphs.
+
+  > Todo ....
