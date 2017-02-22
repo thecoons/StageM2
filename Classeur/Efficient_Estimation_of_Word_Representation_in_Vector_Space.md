@@ -22,3 +22,9 @@ On discutera par la suite de la dépendance pour le temps d'apprentissage et sa 
 <p align="center">
 <img  src="http://latex.codecogs.com/gif.latex?O&space;=&space;E&space;\times&space;T&space;\times&space;Q">
 </p>
+
+> Où E représente le nombre de périodes d'entraînement du modèle, T est le nombre de mots dans l'ensemble d'entraînement.Et Q est à définir pour chaque modèle. Tous les modèles utilisent la "stochastic gradient descent" et la "backpropagation" lors de la phase d'entrainement.
+
+### 2.1 Feedforward Neural Net Language Model (NNLM)
+
+>
