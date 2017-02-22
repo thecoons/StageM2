@@ -89,8 +89,14 @@
 
   _21/02/2017_
 
-  Etant dans un domaine formel (théorie des graphes) il serait facile de générer un très grands nombres d'exemples représentatives d'une problématique pour améliorer la pérformance de nos modèles [ML 1.11.1].
-
   Il faut établir les différentes approches pour les phases de "pooling" d'une architectures à convolution.
 
   Il faut s'intéresser aux méthodes d'apprentissages appliqués aux structures moléculaires (chémoinformatique !).
+
+  _22/02/2017_
+
+  Etant dans un domaine formel (théorie des graphes) il serait facile de générer un très grands nombres d'exemples représentatives d'une problématique pour améliorer la pérformance de nos modèles [ML 1.11.1].
+
+  > En tirant parti de [ML 2.],il pourait être pertinant de définir un modèle à compléxité réduite pour pouvoir l'appliquer à de très grands jeux de données. On peut penser que l'on peut combler la complexité structurelle de problématiques liées aux graphes par une telle approche. On se rapproche ainsi des méthodes appliquées en TALN, pour s'accommoder à de grands espaces de représentation.
+
+  
