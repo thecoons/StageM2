@@ -27,4 +27,4 @@ On discutera par la suite de la dépendance pour le temps d'apprentissage et sa 
 
 ### 2.1 Feedforward Neural Net Language Model (NNLM)
 
->
+> todo ...

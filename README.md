@@ -41,7 +41,9 @@
 
 2. **Efficient Estimation of Word Representations in Vector Space**
 
-  > Todo ...
+  > On peut en tirer que la réduire la complexité d'un modèle pour la représentation des entrées de données peut significativement améliorer les résultats.
+
+  > Todo ( mieux comprendre l'apport de leurs nouveaux modèles tout beau tout neuf ... )
 
 ## Mémo
 
