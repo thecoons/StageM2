@@ -99,4 +99,4 @@
 
   > En tirant parti de [ML 2.],il pourait être pertinant de définir un modèle à compléxité réduite pour pouvoir l'appliquer à de très grands jeux de données. On peut penser que l'on peut combler la complexité structurelle de problématiques liées aux graphes par une telle approche. On se rapproche ainsi des méthodes appliquées en TALN, pour s'accommoder à de grands espaces de représentation.
 
-  
+  > L'idée !!!! On pourait créer un échantillonnage (random, rules, apprentissage) et appliquer Node2Vec. Cela donne un modèle de complexité moindre scalable pour un grand nombre d'exemple.Et ainsi on est plus limité par la taille des graphes.
