@@ -19,4 +19,6 @@ On discutera par la suite de la dépendance pour le temps d'apprentissage et sa 
 
 > On souhaite estimer une représentation continue des mots. Il est important pour la comparaison des performances entre modèles de définir leur complexité.
 
-<img src="http://latex.codecogs.com/gif.latex?O&space;=&space;E&space;\times&space;T&space;\times&space;Q">
+<div style="text-align:center">
+<img  src="http://latex.codecogs.com/gif.latex?O&space;=&space;E&space;\times&space;T&space;\times&space;Q">
+</div>
