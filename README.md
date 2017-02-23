@@ -107,4 +107,6 @@
   Je pense que l'on peut améliorer les performances de node2vec en changent notre approche de représentation du graphe.
   On peut facilement concevoir qu'effectuer une 'marche courte' sur l'ensemble des noeuds met en évidence des structures locales insuffisantes pour discriminer des structures complexes. De plus, on suppose, qu'une telle approche engendre une redondance d'information augmentant la complexité du modèle inutilement.
   Une approche de marche aléatoire sur un sous-ensemble de noeuds déterminés par une stratégie S peut faire émerger des structures plus fine pour une complexité moindre. Le modèle doit pouvoir estimer le nombre de noeuds sélectionnés en fonction de S et de la taille des marches à effectuer.
-  Une telle stratégie pourrait être un prétraitement effectué par node2vec .... pourquoi pas ! 
+  Une telle stratégie pourrais être un prétraitement effectué par node2vec .... pourquoi pas !
+
+  Et pourquoi pas, si l'on joint node2vec à notre modèle, on obtient une version 'deep' avec deux couches. La première classifie les noeuds en fonction de leur représentation locale pour fournir un échantillonnage des noeuds à notre modèle qui lui, met en évidence des structures plus fines et profondes. C'est ce qu'envisage l'auteur dans la conclusion, de pouvoir supperposé ce layer à un modèle plus "deep" dù à sa complexité réduite.
