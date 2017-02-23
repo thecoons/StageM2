@@ -100,3 +100,11 @@
   > En tirant parti de [ML 2.],il pourait être pertinant de définir un modèle à compléxité réduite pour pouvoir l'appliquer à de très grands jeux de données. On peut penser que l'on peut combler la complexité structurelle de problématiques liées aux graphes par une telle approche. On se rapproche ainsi des méthodes appliquées en TALN, pour s'accommoder à de grands espaces de représentation.
 
   > L'idée !!!! On pourait créer un échantillonnage (random, rules, apprentissage) et appliquer Node2Vec. Cela donne un modèle de complexité moindre scalable pour un grand nombre d'exemple.Et ainsi on est plus limité par la taille des graphes.
+
+  _23/02/2017_
+
+  J'ai fait un premier jet...
+  Je pense que l'on peut améliorer les performances de node2vec en changent notre approche de représentation du graphe.
+  On peut facilement concevoir qu'effectuer une 'marche courte' sur l'ensemble des noeuds met en évidence des structures locales insuffisantes pour discriminer des structures complexes. De plus, on suppose, qu'une telle approche engendre une redondance d'information augmentant la complexité du modèle inutilement.
+  Une approche de marche aléatoire sur un sous-ensemble de noeuds déterminés par une stratégie S peut faire émerger des structures plus fine pour une complexité moindre. Le modèle doit pouvoir estimer le nombre de noeuds sélectionnés en fonction de S et de la taille des marches à effectuer.
+  Une telle stratégie pourrait être un prétraitement effectué par node2vec .... pourquoi pas ! 
