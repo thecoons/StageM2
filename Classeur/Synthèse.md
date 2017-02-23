@@ -11,6 +11,6 @@ En lisant [ML 2.], on comprend que la compléxité d'un modèle peu être une pr
 
 Pour Node2Vec, je pense qu'ils passent à côté de quelques choses, ils effectuent une marche aléatoire à partir de tous les noeuds. Mais je pense que l'on peut réduire la compléxité du modèles non pas en réduisant la dimensionalité par la taille des marches, mais par un échantillonnage des noeuds sources. Ce qui augmente l'expréssivité des vecteurs pour ainsi représenter, hypothétiquement, plus d'informations dans une matrice plus dense.
 
-Une telle approche est parfaitement adaptée à la classification de noeuds et la prédiction de liens dans une structure en treillis, de part sa nature à explorer le graphe en profondeur... enfin je suposse.
+Une telle approche est parfaitement adaptée à la classification de noeuds et la prédiction de liens dans une structure en treillis ou simplement orientés, de part sa nature à explorer le graphe en profondeur... enfin je suposse.
 
 Il faut comprendre qu'attaquer le problème de propriété sur les graphes ne peut, ce faire en considérant la globalité des noeuds. Il est plus pertinent d'estimer leurs interactions.
