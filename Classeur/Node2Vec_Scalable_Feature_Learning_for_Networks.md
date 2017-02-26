@@ -16,4 +16,10 @@ Or les techniques courantes d'apprentissages non supervisés ne fournissent pas 
 
 Autrement, on peut créer une fonction objective qui préserve le voisinage local des noeuds. Cette objectif peut être efficacement obtenu par une décente de gradient, par "backpropagation", branché sur un "feadforward neural networks". Les récents travaux sur le sujet ont apporté des résultats intéressants en proposant des algorithmes performants mais fondé sur une représentation du voisinage très rigide.
 
-Spécialement dans les réseaux, les noeuds peuvent être organisé de deux façons. En communauté que l'on peut classifier et en rôle structurel dans le graphe. 
+Spécialement dans les réseaux, les noeuds peuvent être organisés de deux façons. En communauté que l'on peut classifier et en rôle structurel similaire dans le graphe. Une telle approche peut être adaptée à de nombreux domaines et prédictions de tâche.
+
+L'approche de node2vec est fondée sur une représentation du voisinage des noeuds par une marche aléatoire du second ordre. La contribution majeure est d'apporter une représentation flexible du voisinage. Avec cette approche, node2vec utilise une représentation du voisinage adapté pour faire émerger des invariants, des communautés de noeuds ainsi que des dépendances de structures liées à la problématique. De plus ce modèle peut être semi-supervisé.
+
+Le papier montre également qu'il est possible d'étendre l'apprentissage sur les noeuds à des pairs, des arêtes, via des opérateurs binaires.
+
+On apprend, que node2vec établit l'état de l'art sur différents modèles d'application aussi bien en classification de noeuds mais également en prédicition de liens. De plus node2vec consérve des performances compétitives avec seulement 10% des noeuds labélisés.
