@@ -23,3 +23,5 @@ L'approche de node2vec est fondée sur une représentation du voisinage des noeu
 Le papier montre également qu'il est possible d'étendre l'apprentissage sur les noeuds à des pairs, des arêtes, via des opérateurs binaires.
 
 On apprend, que node2vec établit l'état de l'art sur différents modèles d'application aussi bien en classification de noeuds mais également en prédicition de liens. De plus node2vec consérve des performances compétitives avec seulement 10% des noeuds labélisés.
+
+## 2. Related Work

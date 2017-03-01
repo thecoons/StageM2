@@ -1,7 +1,7 @@
 # Deep Learning and Graph Patterns
 ## Plan
-  1. Machine Learning and Deep Learning
-  2. Representation Learning
+  1. Machine learning et Representation learning
+  2. Graph Minor Theory
   3. Learning Techniques Apply to Graph Structures
 
 ## Articles
@@ -44,6 +44,12 @@
   > On peut en tirer que la réduire la complexité d'un modèle pour la représentation des entrées de données peut significativement améliorer les résultats.
 
   > Todo ( mieux comprendre l'apport de leurs nouveaux modèles tout beau tout neuf ... )
+
+### Graph Theory
+
+1. **Graph Minor Theory**
+
+  > todo
 
 ## Mémo
 
@@ -110,3 +116,12 @@
   Une telle stratégie pourrais être un prétraitement effectué par node2vec .... pourquoi pas !
 
   Et pourquoi pas, si l'on joint node2vec à notre modèle, on obtient une version 'deep' avec deux couches. La première classifie les noeuds en fonction de leur représentation locale pour fournir un échantillonnage des noeuds à notre modèle qui lui, met en évidence des structures plus fines et profondes. C'est ce qu'envisage l'auteur dans la conclusion, de pouvoir supperposé ce layer à un modèle plus "deep" dù à sa complexité réduite.
+
+  _01/03/2017_
+
+  La réunion d'hier a laissé des marques...
+  1. Ne pas avoir d'idée pour le moment (ce n'est pas de la science), il faut lire et synthétiser le savoir, on fera de la spéculation plus tard....
+
+  2. Le plan de la bibliographie doit suivre la ligne directrice suivante. On doit présenter l'apprentissage machine, ainsi que la théorie des mineurs de graphes et ce que les deux s'apportent.
+
+  
