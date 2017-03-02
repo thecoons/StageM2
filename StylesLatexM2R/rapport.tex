@@ -1,0 +1,72 @@
+
+
+%% La classe stageM2R s'appuie sur la classe memoir, plus d'information sur le paquet: http://www.ctan.org/pkg/memoir
+%% option possible de la classe stageM2R
+% utf8  -> encodage du texte UTF8 (défaut: Latin1)
+% final -> mode rapport de stage final (défaut: mode étude bibliographique)
+% private -> indique une soutenance privée (défaut: soutenance publique)
+\documentclass[utf8]{stageM2R} %-> etude bibliographique
+%\documentclass[utf8,final]{stageM2R} %-> rapport final
+
+
+\usepackage{lipsum} %% a supprimer 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Déclaration du stage %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% auteur
+\author{Prénom Nom}
+%% encadrants
+\supervisors{Prénom1 Nom1\\Prénom2 Nom2}
+%% lieu du stage (Optionnel)
+\location{LIRMM UM5506 - CNRS, Université de Montpellier}
+%% titre du stage
+\title{Intitulé du stage} 
+%% parcours du master
+\track{monparcours}  
+%% date de soutenance (Optionnel)
+\date{\today} 
+%% version du rapport (Optionnel)
+\version{1}
+%% Résumé en francais
+\abstractfr{
+Ce stage de master.
+}
+%% Résumé en anglais
+\abstracteng{
+  This master thesis.
+}
+
+
+
+\begin{document}   
+%\selectlanguage{english} %% --> turn the document into english mode (Default is french)
+\selectlanguage{french} 
+\frontmatter  %% -> pas de numérotation numérique
+\maketitle    %% -> création de la page de garde et des résumés
+\cleardoublepage   
+\tableofcontents %% -> table des matières
+\mainmatter  %% -> numérotation numérique
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%    DEBUT DU RAPPORT  %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Introduction}
+\lipsum
+\chapter{Lorem Ipsum}
+\lipsum
+\section{Lorem Ipsum} 
+\lipsum
+\section{Lorem Ipsum} 
+\lipsum    
+\end{document}
+
+    
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End:  
+ 

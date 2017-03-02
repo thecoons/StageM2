@@ -49,7 +49,7 @@
 
 1. **Graph Minor Theory**
 
-  > todo
+  > Grosse révolution pour les graphes, en plus de définir des classes de graphes, les mineurs permetent l'établissement d'un bel ordre entre les graphes via une treedecomposition et la généralisation de Kruskal. Les propriétés structurelles des mineurs peut être un allié de poids dans l'apprentissage sur les graphes.
 
 ## Mémo
 
@@ -123,5 +123,3 @@
   1. Ne pas avoir d'idée pour le moment (ce n'est pas de la science), il faut lire et synthétiser le savoir, on fera de la spéculation plus tard....
 
   2. Le plan de la bibliographie doit suivre la ligne directrice suivante. On doit présenter l'apprentissage machine, ainsi que la théorie des mineurs de graphes et ce que les deux s'apportent.
-
-  

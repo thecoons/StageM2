@@ -43,4 +43,18 @@
 
   Toutes classe de graphes fermé par mineur peut être charactérisé par une liste fini de mineurs exclut.
 
+  On peut voir le théorème sous un autre angle, il n'existe aucune liste infinie de graphes telle que un graph ne soit mineur d'un autre. Ce qui nous permet de déinit un ordre partiel, un bel ordre, sur les classes F de graphes fermés par mineurs.
+
+### Les arbres
+
+  Le résultat du bel ordre établit, va permettre une généralisation du thèorème de Kruskal appliqué aux graphes. Qui dit qu'il existe un bel ordre sur tout les ensembles fini d'arbres.
+
+### Plongement dans une surface
+
+## Related graph-theorical problems
+
+### Tree-decomposition et tree-width
+
+  La tree-decomposition consiste en une constraction donnée du graphe G tel que G' est un arbres.
+  La tree-width consiste max |G'| - 1
   
