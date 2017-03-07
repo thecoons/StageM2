@@ -1,9 +1,15 @@
 # Deep Learning and Graph Patterns
 ## Plan
-  1. Machine learning et Representation learning
+  1. Machine learning
+    1. Apprentissage Statistique
+    2. Réseaux de Neuronnes
+    3. Représentation Learning
   2. Graph Minor Theory
+    1. Introduction à la théorie
+    2. Propriétés exploitables
   3. Learning Techniques Apply to Graph Structures
-
+    1. Les approches par convolution
+    2. Les approches par marches aléatoires
 ## Articles
 
 ### Spectral Graph Theory
