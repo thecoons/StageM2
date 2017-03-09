@@ -15,6 +15,7 @@
     1. Réseaux de Neuronnes
     1. Les propriétés fondamentales des réseaux de neurones
     1. Représentation Learning ou Features Learning
+      > A formaliser !!!
 
   2. La théorie des graphes
     1. Introduction
