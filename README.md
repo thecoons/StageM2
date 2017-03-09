@@ -1,15 +1,38 @@
 # Deep Learning and Graph Patterns
 ## Plan
-  1. Machine learning
-    1. Apprentissage Statistique
-    2. Réseaux de Neuronnes
-    3. Représentation Learning
-  2. Graph Minor Theory
-    1. Introduction à la théorie
-    2. Propriétés exploitables
-  3. Learning Techniques Apply to Graph Structures
-    1. Les approches par convolution
-    2. Les approches par marches aléatoires
+  0. Introduction
+  > Montrer les deux grandes révolutions
+
+  1. Apprentissage Statistique
+    1. Présentation
+    1. Qu'est qu'un modèle ?
+    1. Modèles statiques
+    1. Modèles dynamique
+    1. Elements de la théorie de l'apprentissage
+    > Introduire la VC dimension
+
+    1. Les neurones
+    1. Réseaux de Neuronnes
+    1. Les propriétés fondamentales des réseaux de neurones
+    1. Représentation Learning ou Features Learning
+
+  2. La théorie des graphes
+    1. Introduction
+    > Montrer comment c'est trop important, "l'outil" universelle des mathématiques discret
+
+    2. Définition
+    3. Paramètres
+    4. theorie spectral des graphes
+    5. theorie des graphes fermés par mineurs
+    6. FPT
+
+  3. Technique d'apprentissage dans les graphes
+    1. Introduction
+    2. Approche par convolution
+    2. Les approches par représentation dans des espaces vectoriels continues
+
+  4. Problématique
+    1. mineur -> features => ML !
 ## Articles
 
 ### Spectral Graph Theory
@@ -63,6 +86,8 @@
 
   > TensorFlow distribué par Spark, ça sonne bien à voir.
 
+2. [ Recurrent Weighted Average ](https://github.com/jostmey/rwa?)
+  > RNN nouvel génération ???
 ## Note
 
   _14/02/2017_
