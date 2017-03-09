@@ -33,6 +33,7 @@
 
   4. Problématique
     1. mineur -> features => ML !
+
 ## Articles
 
 ### Spectral Graph Theory
@@ -87,7 +88,9 @@
   > TensorFlow distribué par Spark, ça sonne bien à voir.
 
 2. [ Recurrent Weighted Average ](https://github.com/jostmey/rwa?)
+
   > RNN nouvel génération ???
+
 ## Note
 
   _14/02/2017_
