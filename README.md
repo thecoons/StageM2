@@ -1,7 +1,7 @@
 # Deep Learning and Graph Patterns
 ## Plan
   0. Introduction
-    > Montrer les deux grandes révolutions
+      > Montrer les deux grandes révolutions
 
   1. Apprentissage Statistique
     1. Présentation
@@ -75,6 +75,11 @@
   > On peut en tirer que la réduire la complexité d'un modèle pour la représentation des entrées de données peut significativement améliorer les résultats.
 
   > Todo ( mieux comprendre l'apport de leurs nouveaux modèles tout beau tout neuf ... )
+
+3. **Hybrid computing using a neural network with dynamic external memory**
+
+  > Surment le papier de l'année ....
+
 
 ### Graph Theory
 
