@@ -1,7 +1,7 @@
 # Deep Learning and Graph Patterns
 ## Plan
   0. Introduction
-  > Montrer les deux grandes révolutions
+    > Montrer les deux grandes révolutions
 
   1. Apprentissage Statistique
     1. Présentation
@@ -9,7 +9,7 @@
     1. Modèles statiques
     1. Modèles dynamique
     1. Elements de la théorie de l'apprentissage
-    > Introduire la VC dimension
+      > Introduire la VC dimension
 
     1. Les neurones
     1. Réseaux de Neuronnes
@@ -19,7 +19,7 @@
 
   2. La théorie des graphes
     1. Introduction
-    > Montrer comment c'est trop important, "l'outil" universelle des mathématiques discret
+      > Montrer comment c'est trop important, "l'outil" universelle des mathématiques discret
 
     2. Définition
     3. Paramètres
