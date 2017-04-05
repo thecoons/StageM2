@@ -40,8 +40,8 @@
 > DescionTree
 
 |Jeu de données|Representation|Miss_class (%)|Accuracy|Recall|F-Measure|
-|:---------:|:---------:|:---------:|:---------:|:--------:|
-|pTree_basic_cycle_generation_20_[10, 50, 100]_100|learning_base_to_vec_adjacency_set|73.33333333333333%|0.08888888888888889|0.3333333333333333|0.14035087719298248|
+|:---------:|:---------:|:---------:|:---------:|:--------:|:--------:|
+|pTree_basic_cycle_generation_20_[10, 50, 100]_100|learning_base_to_vec_adjacency_set|73.33333333333333%|0.08888888888888889|0.3333333333333333|0.14035087719298248| 
 |pTree_basic_cycle_generation_20_[10, 50, 100]_100|learning_base_to_vec_laplacian_set|76.66666666666667%|0.07777777777777778|0.3333333333333333|0.12612612612612611|
 |pTree_basic_cycle_generation_20_[10, 50, 100]_100|learning_base_to_A3_minus_D|80.0%|0.06666666666666667|0.3333333333333333|0.11111111111111112|
 |pTree_basic_cycle_generation_100_[10, 50, 100]_100|learning_base_to_vec_adjacency_set|73.33333333333333%|0.08888888888888889|0.3333333333333333|0.14035087719298248|
